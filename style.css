@@ -1,0 +1,441 @@
+.body{
+    margin: 0;
+    max-width: 1219px;
+
+}
+
+header{
+
+    background-color: #007765;
+    background-size: cover;
+    background-position: center center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    
+
+}
+.container1{
+   
+    width: 1219px;
+    height: 84px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1219px;
+    box-sizing: border-box;
+    padding-left: 55px;
+    padding-right: 55px;
+    align-items: center;
+    position: relative;
+    z-index: 100;
+    
+    
+}
+
+.logo, .m1, .m2, .m3{
+    float: left;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+
+.logo{
+    
+    width: 184px;
+    height: 45px;
+    float: left;
+
+}
+
+.m1, .m2, .m3{
+
+    padding-top: 25px;
+    
+}
+
+.m1{
+
+    padding-left: 400px;
+    
+}
+
+span{
+    padding-right: 5px;
+    padding-left: 20px;
+}
+ 
+a{font-family: "Roboto","sans-serif";
+    font-size: 24px;
+    line-height: 28.13px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 10px;
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+
+    
+ .PiperNet_Is_Here{
+    background-image: url("image1.png");
+    background-size: cover;
+    background-position: center center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0;
+    
+}
+  
+.container2{
+    margin-top: 40px;
+    box-sizing: border-box;
+    width: 1219px;
+    height: 403px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1219px;
+    font-size: 0;
+}
+
+.message{
+    font-family: "Roboto", "sans-serif";
+    font-size: 72px;
+    line-height: 100px;
+    text-align: center;
+    color: #FFFFFF;
+    
+    padding-top: 160px;
+    padding-left: auto;
+}
+
+.container3{
+    max-width: 1219px;
+    height: 794px;
+    padding-left: 55px;
+    padding-right: 55px;
+  
+}
+
+
+.The_Problem{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1219px;
+    height: auto;
+    background-color: #FFFFFF;
+    background-size: cover;
+    background-position: center center;
+    font-size: 0;
+}
+
+.container3{    
+    padding-top: 25px;
+    height: 719px;
+    max-width: 1110px;
+    padding-left: 55px;
+    padding-right: 55px;
+    font-size: 0;
+}
+    
+.container3 h1{
+
+    margin-block-end:10px;
+    font-weight: 500;
+    color: #007765;
+    text-align: center;
+    left: 420px;
+    font-family: "Roboto", "sans-serif";
+    font-size: 64px;
+    line-height: 90px;
+
+}
+    
+
+
+div.one, div.two, div.four, div.five {
+    font-family: "Roboto", "sans-serif";
+    font-size: 32px;
+    line-height: 37.5px;
+    text-align: justify;
+    color: black;
+    padding-bottom: 35px;
+    padding-right: 50px;
+    font-weight:200;
+    
+}
+div.three{
+    font-family: "Roboto", "sans-serif";
+    font-size: 32px;
+    line-height: 37.5px;
+    text-align: justify;
+    color: black;
+    padding-right: 50px;
+}
+
+
+
+.bold {
+    font-weight: 700;
+}
+
+.Long_message{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-image: url("image2.png");
+    background-size: cover;
+    background-position: center center;
+    margin-inline-start: 0;
+    margin-block-end: 0;
+    
+  
+
+}
+
+.container4{
+    box-sizing: border-box;
+    max-width: 893px;
+    font-size: 0;
+    height: 483px;
+    margin-bottom: -40px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1219px;
+    
+}
+
+.new_message{
+    font-family: "Roboto", "sans-serif";
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #FFFFFF;
+    
+    padding-top: 125px;
+    padding-left: 163px;
+    padding-right: 163px;
+    font-style: italic;
+}
+    
+
+
+.Introducing_PiedPiperCoin{
+    
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFFFFF;
+    background-size: cover;
+    background-position: center center;
+    margin-inline-start: 0;
+    margin-block-end: 0;
+
+}
+.container5{
+    box-sizing: border-box;
+    max-width: 1219px;
+    height: 645px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -100px;
+
+}
+.message_3, .message_3_2, .message_3_3, .message_3_4, .message_3_5 {
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+.container5 h1{
+    
+    padding-top: 75px;
+    text-align: center;
+    font-weight: 500;
+    color: #007765;
+    font-family: "Roboto", "sans-serif";
+    font-size: 64px;
+    line-height: 75px;
+    box-sizing: border-box;
+
+    
+} 
+
+.pictures{   
+    
+    background-image: url("PPC\ Logo.png");
+    background-repeat: no-repeat;
+    width: 115px;
+    height: 115px;
+    margin-left: 55px;
+    float: left;
+    padding-right: 50px;
+    overflow: hidden; 
+    padding-bottom: 35px;
+}
+
+.message_3, .message_3_2 {
+    font-family: "Roboto", "sans-serif";
+    font-size: 32px;
+    line-height: 37.5px;
+    text-align: left;
+    color: black;
+
+    font-weight:200;
+}
+
+.message_3_3, .message_3_4, .message_3_5 {
+    clear: left;
+
+    font-family: "Roboto", "sans-serif";
+    font-size: 32px;
+    line-height: 38px;
+
+    color: black;
+    font-weight:100;
+
+}
+
+
+.message_3_4, .message_3_5 {
+    
+    text-align:left;
+}
+.message_3_4{
+    padding-bottom: 35px;
+}
+.it{
+    font-style: oblique;
+}
+
+.people{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #EEEEEE;
+    background-size: cover;
+    background-position: center center;
+ 
+
+}
+.container6{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    max-width: 1219px;
+    box-sizing: border-box;
+    width: 1219;
+    height: 845px;
+    text-align: center;
+}
+.team_header{
+    padding-top: 75px;
+    text-align: center;
+    font-weight: 500;
+    color: #007765;
+    font-family: "Roboto", "sans-serif";
+    font-size: 64px;
+    line-height: 75px;
+
+}
+
+.Richard, .Dinesh, .Bertram, .Jared, .Monica, .Nelson{
+    Width: 350px;
+    Height:280px;
+}
+
+.Richard, .Dinesh, .Bertram{
+    display: inline-block;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    
+}
+
+.clean{
+    clear: both;
+}
+
+.Jared, .Monica, .Nelson{
+    display: inline-block;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+
+
+
+.name{
+    font-family: Roboto;
+    font-size: 24px;
+    line-height: 28px;
+    color: #007765;
+    font-weight: 700;
+
+}
+
+.pos{
+    font-family: Roboto;
+    font-size: 18px;
+    
+    font-style: italic;
+    line-height: 40px;
+    text-align: center;
+
+}
+
+footer{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    background-position: center center;
+    margin-inline-start: 0;
+    margin-block-end: 0;
+    background: #333333;
+
+}
+
+.container7{
+    box-sizing: border-box;
+    max-width: 1219px;
+    height: 176px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.last_message{
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 21.09px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-left: 340px;
+    padding-right: 340px;
+    padding-top: 56px;
+    padding-bottom: 56px;
+
+
+}
+
+
+    
+
+
+
+
+
+
+
+  

@@ -1,0 +1,509 @@
+.body{
+    margin: 0;
+    max-width: 1219px;
+
+}
+
+header{
+
+    background-color: #007765;
+    background-size: cover;
+    background-position: center center;
+    
+    position: fixed;
+    width: 100%;
+    top: 0;
+    
+
+}
+
+.container1{
+   
+    width: 1219px;
+    
+    
+    max-width: 1219px;
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-bottom: 20px;
+    align-items: center;
+    position: relative;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.logo{
+    
+    width: 184px;
+    height: 45px;
+    flex-grow: 1; 
+
+}
+
+span{
+    padding-right: 10px;
+    padding-left: 10px;
+    font-family: "Roboto","sans-serif";
+    font-size: 24px;
+    line-height: 28.13px;
+    text-align: center;
+    color: #FFFFFF;
+}
+ 
+a{font-family: "Roboto","sans-serif";
+    font-size: 24px;
+    line-height: 28.13px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 10px;
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+
+@media  (max-width: 768px) {
+    header{
+
+        background-color: #007765;
+        background-size: cover;
+        background-position: center center;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        
+    
+    }
+    .container1{
+   
+        width: 768px;
+        
+        
+        max-width: 768px;
+        box-sizing: border-box;
+        padding-top: 10px;
+        padding-left: 3px;
+        padding-right: 160px;
+        padding-bottom: 10px;
+        align-items: center;
+        position: relative;
+        z-index: 100;
+        display: flex;
+        justify-content: center;
+        
+    }
+    .logo{
+        flex-grow: 1; 
+        width: 55px;
+        height: 45px;
+    }
+    a {
+        font-size: 15px;
+        line-height: 14px;
+    }
+    span{
+        padding-right: -15px;
+        padding-left: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    header{
+
+        background-color: #007765;
+        background-size: cover;
+        background-position: center center;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        
+    
+    }
+    .container1{
+   
+        width: 480px;
+        
+        
+        max-width: 480px;
+        box-sizing: border-box;
+        padding-top: 3px;
+        padding-left: 3px;
+        padding-right: 65px;
+        padding-bottom: 3px;
+        align-items: center;
+        position: relative;
+        z-index: 100;
+        display: flex;
+        justify-content: center;
+        
+    }
+    .logo{
+        flex-grow: 1; 
+        padding: 0;
+
+    }
+    a {
+        display: flex;
+        flex:auto;
+        font-size: 10px;
+        line-height: 10px;
+    }
+    span{
+
+        padding: 0px;
+    }
+}
+
+
+
+.PiperNet_Is_Here {
+    background-image: url("image1.png");
+    background-size: cover;
+    background-position: center center;
+    padding: 100px 0; /* Внутренние отступы сверху и снизу */
+    width: 100%; /* Занимает всю доступную ширину */
+
+    /* Используем flex для центрирования */
+    display: flex;
+    justify-content: center; /* Центрируем по горизонтали */
+    align-items: center; /* Центрируем по вертикали */
+}
+
+.container2 {
+    
+    padding-top: 100px;
+    padding-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1fr; /* Создание колонки */
+    gap: 20px;
+    max-width: 1219px;
+    width: 100%;
+    font-size: 0; /* Избегаем пробелов между inline элементами */
+    text-align: center; /* Центрируем текст по центру */
+    min-height: auto;
+}
+
+.message {
+    font-family: "Roboto", "sans-serif";
+    font-size: 70px;
+    line-height: 100px;
+    color: #FFFFFF;
+    margin: 0; /* Убираем внешние отступы */
+}
+
+
+.The_Problem {
+    background-color: #EEEEEE;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Центрируем контейнер по горизонтали */
+    align-items: center; /* Центрируем контейнер по вертикали */
+    flex-direction: column; /* Вертикальное расположение элементов */
+    padding: 30px 0; /* Внутренние отступы сверху и снизу */
+}
+
+.container3 {
+    max-width: 1219px;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr; /* Создание колонки */
+    gap: 20px; /* Отступы между ячейками */
+    text-align: left;
+    padding: 0 20px;
+    padding-bottom: 50px;
+}
+
+.container3 h1 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-weight: 500;
+    color: #007765;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: "Roboto", "sans-serif";
+    font-size: 64px;
+    line-height: 90px;
+}
+
+.container3 div {
+    font-family: "Roboto", "sans-serif";
+    font-size: 32px;
+    line-height: 37.5px;
+    max-width: 100%; /* Устанавливаем максимальную ширину */
+    color: black;
+    padding-left: 55px;
+    padding-right: 55px;
+    font-weight: 200;
+    text-align: left; /* Выравниваем текст по левому краю */
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.Long_message{
+
+    background-image: url("image2.png");
+    background-size: cover;   
+    background-position: center center;
+    padding: 100px 0;  /*Внутренние отступы сверху и снизу */
+    width: 100%; /* Занимает всю доступную ширину */
+
+    /* Используем flex для центрирования */
+    display: flex;
+    justify-content: center; /* Центрируем по горизонтали */
+    align-items: center;
+  
+
+}
+
+.container4{
+    padding-top: 0;
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr; /* Создание колонки */
+   
+    max-width: 893px;
+    width: 100%;
+    font-size: 0;
+    text-align: center; /* Центрируем текст по центру */
+    min-height: auto;
+    
+    
+}
+
+.new_message{
+    font-family: "Roboto", "sans-serif";
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #FFFFFF;
+    
+    
+    font-style: italic;
+}
+
+.Introducing_PiedPiperCoin {
+    background-color: #FFFFFF;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex: 1;
+    justify-content: center; /* Центрируем контейнер по горизонтали */
+    align-items: center; /* Центрируем контейнер по вертикали */
+    flex-direction: column; /* Вертикальное расположение элементов */
+    padding: 30px 55px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.container5 {
+    display: grid;
+    grid-template-columns: 1fr; /* Создание колонки */
+    gap: 20px;
+    background-color: #FFFFFF;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    padding-bottom: 50px;
+    max-width: 1219px;
+    text-align: center; /* Центрируем текст по центру */
+    box-sizing: border-box;
+}
+
+.grid {
+    max-width: 100%; /* Чтобы контейнер не выходил за границы */
+    padding-top: 0;
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-columns: [start] 165px [line2] auto; /* Создание колонки */
+    grid-template-rows: [start] auto [line2] auto [line3] auto [line4] 110px [line5] 40px;
+    text-align: left;
+    box-sizing: border-box; /* Учитываем padding и border в размерах */
+}
+
+.pictures {
+    background-image: url("PPC\ Logo.png");
+    background-repeat: no-repeat;
+    width: 115px;
+    height: 115px;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.message_3, .message_3_2, .message_3_3, .message_3_4, .message_3_5 {
+    max-width: 100%; /* Чтобы текст не выходил за границы */
+    font-family: "Roboto", "sans-serif";
+    font-size: 32px;
+    line-height: 37.5px;
+    text-align: left;
+    color: black;
+    font-weight: 200;
+    word-wrap: break-word; /* Переносим длинные слова */
+    word-break: break-word; /* Переносим слова */
+    box-sizing: border-box; /* Учитываем padding и border в размерах */
+    overflow-wrap: break-word; /* Переносим длинные слова */
+    hyphens: auto; /* Автоматически вставляем дефисы */
+}
+
+.message_3 {
+    grid-row: 1;
+}
+
+.message_3_2 {
+    grid-row: 2;
+    grid-column: 2;
+    padding-bottom: 40px;
+}
+
+.message_3_3 {
+    grid-row: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.message_3_4 {
+    padding-bottom: 40px;
+    grid-row: 4;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.message_3_5 {
+    grid-row: 5;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.container5 h1 {
+    padding-top: 12px;
+    text-align: center;
+    font-weight: 500;
+    color: #007765;
+    font-family: "Roboto", "sans-serif";
+    font-size: 64px;
+    line-height: 75px;
+    box-sizing: border-box;
+}
+
+.it {
+    font-style: oblique;
+    margin-left: -18px;
+}
+
+/* Добавим медиазапросы для лучшего отображения на разных устройствах */
+@media (max-width: 768px) {
+    .message_3, .message_3_2, .message_3_3, .message_3_4, .message_3_5 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+}
+
+@media (max-width: 480px) {
+    .message_3, .message_3_2, .message_3_3, .message_3_4, .message_3_5 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+
+
+.people{
+
+    background-color: #EEEEEE;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex: 1;
+    justify-content: center; /* Центрируем контейнер по горизонтали */
+    align-items: center; /* Центрируем контейнер по вертикали */
+    flex-direction: column;
+    
+
+    padding-top: 45px;
+    padding-right: 55px;
+    padding-left: 55px;
+    padding-bottom: 55px;
+ 
+
+}
+.container6{
+    
+    max-width: 1219px;
+    text-align: center;
+    width: 100%;
+}
+.human{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.Richard, .Dinesh, .Bertram, .Jared, .Monica, .Nelson{
+    
+    Width: 350px;
+    Height:280px;
+}
+
+.team_header{
+    text-align: center;
+    font-weight: 500;
+    color: #007765;
+    font-family: "Roboto", "sans-serif";
+    font-size: 64px;
+    line-height: 75px;
+
+}
+
+
+
+
+.name{
+    font-family: Roboto;
+    font-size: 24px;
+    line-height: 28px;
+    color: #007765;
+    font-weight: 700;
+
+}
+
+.pos{
+    font-family: Roboto;
+    font-size: 18px;
+    
+    font-style: italic;
+    line-height: 40px;
+    text-align: center;
+
+}
+
+footer {
+    background: #333333;
+    width: 100%; /* Занимает всю доступную ширину */
+    display: flex;
+    justify-content: center; /* Центрируем по горизонтали */
+    padding: 25px 0; /* Внутренние отступы сверху и снизу */
+}
+
+.container7 {
+    max-width: 500px; /* Уменьшено для более узкого контейнера */
+    width: 100%;
+    text-align: center; /* Центрируем текст по центру */
+    padding: 0 15px; /* Добавляем отступы для внутреннего контейнера */
+}
+
+.last_message {
+    font-family: 'Roboto', sans-serif; /* Убедитесь, что шрифт Roboto подключен */
+    font-size: 18px;
+    line-height: 1.4; /* Изменяем line-height для лучшего выравнивания */
+    color: #FFFFFF;
+    text-align: center; /* Центрируем текст по центру */
+}
+
