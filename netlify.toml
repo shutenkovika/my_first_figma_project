@@ -1,3 +1,7 @@
 [build]
   publish = "."
 
+[[redirects]]
+  from = "/*"
+  to = "/good_web.html"
+  status = 200
