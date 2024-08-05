@@ -470,7 +470,7 @@ footer {
         line-height: 25px;
         max-width: 100%; /* Устанавливаем максимальную ширину */
         color: black;
-        padding: 0 0;
+        padding: 0;
    
         
 
@@ -478,6 +478,7 @@ footer {
         text-align: left; /* Выравниваем текст по левому краю */
     }
     .bold {
+        max-width: 100%; /* Устанавливаем максимальную ширину */
         font-weight: 700;
         color: black;
         font-size: 23px;
@@ -557,22 +558,74 @@ footer {
     }
     .logo img {
         width: 120px; /* Уменьшить размер логотипа */
-        padding-right: 20px;
+        padding-right: 5px;
         padding-top: 10px;
     }
     a{
-        font-family: "Roboto","sans-serif";
-        font-size: 15px; /* Уменьшить размер шрифта */
-        line-height: 16px;
-        
-    }
-    span{
-        font-size: 14px;
-        padding-right: 5px;
-    padding-left: 5px;
+        font-size: 15px;
     }
     
+    .line {
+        font-size: 14px;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
 
+    .container3 div {
+        font-family: "Roboto", "sans-serif";
+        font-size: 23px;
+        line-height: 25px;
+        max-width: 100%; /* Устанавливаем максимальную ширину */
+        color: black;
+        padding: 0;
+   
+        
+
+        font-weight: 200;
+        text-align: left; /* Выравниваем текст по левому краю */
+    }
+    .bold {
+        font-family: "Roboto", "sans-serif";
+        max-width: 100%; /* Устанавливаем максимальную ширину */
+        font-weight: 700;
+        color: black;
+        font-size: 23px;
+        line-height: 25px;
+    }
+    
+    .Introducing_PiedPiperCoin {
+        padding: 0;
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .container5 {
+        width: 100%;
+        text-align: center;
+        box-sizing: border-box;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr; /* Одна колонка на всю ширину */
+        grid-template-rows: auto; /* Автоматическая высота строк */
+        gap: 20px; /* Зазор между элементами */
+        max-width: 100%;
+        padding: 0 10px; /* Уменьшить padding */
+        box-sizing: border-box;
+    }
+
+    .pictures {
+        width: 120px; /* Уменьшить размер картинки */
+        height: 120px;
+        margin: 0 auto; /* Центрировать картинку */
+    }
+
+    .it {
+        font-style: oblique;
+        color: black;
+        padding-left: 18px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1219px) { /* Стили для планшетов */
@@ -591,5 +644,5 @@ footer {
         font-size: 20px; /* Уменьшить размер шрифта */
         line-height: 20px;
         
-    }
+    
 }
