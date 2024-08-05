@@ -1,39 +1,14 @@
-# ... (ваш существующий контент)
+[build]
+  publish = "build"
+  command = "npm run build"
 
-# Добавим комментарий к блоку [redirects] для пояснения его цели
-[redirects]
-  # ... (ваши правила перенаправления)
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
 
-  # Перенаправляем все запросы к API на соответствующие функции
-  [[redirects]]
-    from = "/api/*"
-    to = "/.netlify/functions/:splat"
-    status = 200
-
-# Блок для настройки кэширования
-[headers]
-  # ... (ваши существующие заголовки)
-
-  [[headers]]
-    for = "/*.js,/*.css,/*.png,/*.jpg,/*.svg"
-    [headers.values]
-      cache-control = "public, max-age=31536000" # Кэшируем статические файлы на год
-
-# Блок для настройки CSP с более подробными директивами
-[headers]
-  [[headers]]
-    for = "/*"
-    [headers.values]
-      Content-Security-Policy = "default-src 'self'; script-src 'self' https://cdn.example.com; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self' https://fonts.gstatic.com; frame-ancestors 'self'; object-src 'none'; base-uri 'self'; form-action 'self';"
-
-# Блок для настройки переменных окружения
-[environment]
-  # Замените на ваши фактические значения
-  NODE_ENV = "production"
-  ACCESS_TOKEN = @netlify/functions.env.ACCESS_TOKEN
-  DATABASE_URL = @netlify/functions.env.DATABASE_URL
-
-# Блок для настройки плагинов Netlify
-[plugins]
-  @netlify/plugin-imagemin
-  @netlify/plugin-purgecss
+[[redirects]]
+  from = "/*"
+  to = "/good_web.html"
+  status = 200
+  force = true
