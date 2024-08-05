@@ -1,0 +1,3 @@
+[build]
+command = "npm run build" # или другая команда сборки
+publish = "dist" # директория с собранными файлами
